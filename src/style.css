@@ -4,13 +4,48 @@ body {
     background: radial-gradient(circle, rgba(251,203,52,1) 0%, rgba(20,28,36,1) 100%);
 }
 
-.linkcarousel:hover {
-    background-color: transparent !important;
-    color: #fbcb34 !important;
-}
+
 .linkcarousel {
     color: white;
 }
+.linkcarousel:hover {
+    color: #fbcb34 !important;
+    transition: .5s;
+}
+
+.row figure .fa-brands {
+    position: absolute;
+        top: 11%;
+        right: 1%;
+        width: 100%;
+        color: #fff;
+        transition: all 400ms ease-out;
+        opacity: 0;
+        visibility: hidden;
+       text-align: center;
+}
+.row figure:hover > .fa-brands {
+    color: red;
+    opacity: 1;
+    visibility: visible;
+}
+
+.row figure:hover > .fa-brands {
+    margin-top: 70px;
+    margin-bottom: 15px;
+    transform: scale(1.8);
+}
+
+
+.videoyt {
+    transition: 1s;
+}
+.videoyt:hover {
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+
 
 @keyframes gradient {
 0% {
