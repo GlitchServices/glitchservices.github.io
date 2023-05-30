@@ -1,38 +1,16 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="A simple template to mobile landing page">
     <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="author" content="Alexandre Sanlim">
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="shortcut icon" href="src/img/GLITCHSERVICES LOGO.png">
+    <title>Glitch Services</title>
 
-    <title>App Name</title>
-
-    <!--add animation: gradient 60s ease infinite; to animation gradient, custom gradient here: https://cssgradient.io/-->
-    <style>
-      body {
-        background: rgb(255,64,129);
-background: linear-gradient(150deg, rgba(255,64,129,1) 0%, rgba(63,81,181,1) 21%, rgba(48,63,159,1) 52%);
-	background-size: 400% 400%;
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-    </style>
   </head>
   <body class="bg-light">
 
@@ -41,13 +19,13 @@ background: linear-gradient(150deg, rgba(255,64,129,1) 0%, rgba(63,81,181,1) 21%
             <div class="row">
 
               <!-- SET YOUR LOGO HERE -->
-                <figure class="figure col-lg-3"><img src="https://via.placeholder.com/512x512.png/000000/FFFFFF/?text=APP%20LOGO" class="figure-img img-fluid rounded"></figure>
+                <figure class="figure col-lg-3"><img src="src/img/GLITCH.png" class="figure-img img-fluid rounded"></figure>
 
                 <div class="col-lg-9">
 
-                    <h1>App Name</h1>
+                    <h1 class="title">Glitch Services</h1>
                     <p class="lead">Mussum Ipsum, cacilds vidis litro abertis. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Interagi no mé, cursus quis, vehicula ac nisi. Aenean aliquam molestie leo, vitae iaculis nisl.</p>
-                    <p><img src="src/img/badges/ios.svg" width="35%"><img src="https://cdn.rawgit.com/steverichey/google-play-badge-svg/master/img/en_get.svg" width="43%"></p>
+                    <p><a href="https://www.youtube.com/channel/UCyv_5otLdJV36cGuvLaZO7A?sub_confirmation=1" target="_blank"><img src="src/img/badges/youtube.png" width="35%"></a></p>
 
                 </div>
             </div>
@@ -57,8 +35,8 @@ background: linear-gradient(150deg, rgba(255,64,129,1) 0%, rgba(63,81,181,1) 21%
         <div id="myCarousel" class="carousel slide my-3 rounded" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" ></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" ></button>
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -66,8 +44,8 @@ background: linear-gradient(150deg, rgba(255,64,129,1) 0%, rgba(63,81,181,1) 21%
         
                 <div class="container">
                   <div class="carousel-caption">
-                    <h2>Benefit 1</h2>
-                    <p>Some representative placeholder content for the first slide of the carousel.</p>
+                    <h2><a href="https://discord.gg/kiddions" target="_blank" class="linkcarousel">Kiddions</a></h2>
+                    <p>Version: 0.9.9 | </p>
                   </div>
                 </div>
               </div>
@@ -76,8 +54,8 @@ background: linear-gradient(150deg, rgba(255,64,129,1) 0%, rgba(63,81,181,1) 21%
         
                 <div class="container">
                   <div class="carousel-caption">
-                    <h2>Benefit 2</h2>
-                    <p>Some representative placeholder content for the second slide of the carousel.</p>
+                    <h2><a href="https://discord.gg/EYV3mMb8Q6" target="_blank" class="linkcarousel">MxMenu</a></h2>
+                    <p>Version: 2.2.7 | </p>
                   </div>
                 </div>
               </div>
@@ -86,11 +64,13 @@ background: linear-gradient(150deg, rgba(255,64,129,1) 0%, rgba(63,81,181,1) 21%
         
                 <div class="container">
                   <div class="carousel-caption">
-                    <h2>Benefit 3</h2>
-                    <p>Some representative placeholder content for the third slide of this carousel.</p>
+                    <h2><a href="https://discord.gg/mSwqUctT2c" target="_blank" class="linkcarousel">Roze</a></h2>
+                    <p>Ultima actualizacion 12/05/2023. | </p>
                   </div>
                 </div>
               </div>
+              
+              
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -103,14 +83,15 @@ background: linear-gradient(150deg, rgba(255,64,129,1) 0%, rgba(63,81,181,1) 21%
           </div>
       
         <div class="my-3 p-3 rounded">
-          <h1 class="pb-2 mb-0 text-white">Screenshots</h1>
+          <h1 class="pb-2 mb-0 text-white">Videos</h1>
 
           <!-- SET YOUR SCREENSHOTS HERE -->
           <div class="row align-items-center">
-              <figure class="figure col-lg-3"><img src="https://via.placeholder.com/1242x2208.png/000000/FFFFFF/?text=SCREENSHOT%201" class="figure-img img-fluid rounded"></figure>
-              <figure class="figure col-lg-3"><img src="https://via.placeholder.com/1242x2208.png/000000/FFFFFF/?text=SCREENSHOT%202" class="figure-img img-fluid rounded"></figure>
-              <figure class="figure col-lg-3"><img src="https://via.placeholder.com/1242x2208.png/000000/FFFFFF/?text=SCREENSHOT%203" class="figure-img img-fluid rounded"></figure>
-              <figure class="figure col-lg-3"><img src="https://via.placeholder.com/1242x2208.png/000000/FFFFFF/?text=SCREENSHOT%204" class="figure-img img-fluid rounded"></figure>
+              <figure class="figure col-lg-3"><a href="https://www.youtube.com/watch?v=TMISSRNNbTU" target="_blank"><img src="/src/img/MINIATURA.png" class="figure-img img-fluid rounded"></a></figure>
+              <figure class="figure col-lg-3"><a href="https://www.youtube.com/watch?v=TMISSRNNbTU" target="_blank"><img src="/src/img/MINIATURA.png" class="figure-img img-fluid rounded"></a></figure>
+              <figure class="figure col-lg-3"><a href="https://www.youtube.com/watch?v=TMISSRNNbTU" target="_blank"><img src="/src/img/MINIATURA.png" class="figure-img img-fluid rounded"></a></figure>
+              <figure class="figure col-lg-3"><a href="https://www.youtube.com/watch?v=TMISSRNNbTU" target="_blank"><img src="/src/img/MINIATURA.png" class="figure-img img-fluid rounded"></a></figure>
+              
           </div>
 
         </div>

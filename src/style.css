@@ -1,0 +1,47 @@
+body {
+    background: rgb(255,64,129);
+    background: rgb(251,203,52);
+    background: radial-gradient(circle, rgba(251,203,52,1) 0%, rgba(20,28,36,1) 100%);
+}
+
+.linkcarousel:hover {
+    background-color: transparent !important;
+    color: #fbcb34 !important;
+}
+.linkcarousel {
+    color: white;
+}
+
+@keyframes gradient {
+0% {
+    background-position: 0% 50%;
+}
+50% {
+    background-position: 100% 50%;
+}
+100% {
+    background-position: 0% 50%;
+}
+}
+/*
+    <!--add animation: gradient 60s ease infinite; to animation gradient, custom gradient here: https://cssgradient.io/
+    <style>
+      body {
+        background: rgb(255,64,129);
+background: linear-gradient(150deg, rgba(255,64,129,1) 0%, rgba(63,81,181,1) 21%, rgba(48,63,159,1) 52%);
+	background-size: 400% 400%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+    </style>-->
+*/
