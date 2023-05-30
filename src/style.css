@@ -33,7 +33,7 @@ body {
 .row figure:hover > .fa-brands {
     margin-top: 70px;
     margin-bottom: 15px;
-    transform: scale(1.8);
+    transform: scale(1.7);
 }
 
 
