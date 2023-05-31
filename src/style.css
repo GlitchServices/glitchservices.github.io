@@ -45,7 +45,9 @@ body {
     transform: scale(1.1);
 }
 
-
+.text-muted {
+    text-align: center;
+}
 
 @keyframes gradient {
 0% {
