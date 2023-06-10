@@ -11,6 +11,13 @@ body {
     background: radial-gradient(circle, rgba(251,203,52,1) 0%, rgba(20,28,36,1) 100%);
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0;
+    background: #141c24;
+    background-color: #141c24;
+}
+
 
 .glitch {
     font-family: sans-serif;
