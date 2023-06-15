@@ -6,7 +6,6 @@
 
 
 body {
-    background: rgb(255,64,129);
     background: rgb(251,203,52);
     background: radial-gradient(circle, rgba(251,203,52,1) 0%, rgba(20,28,36,1) 100%);
 }
@@ -14,10 +13,9 @@ body {
 ::-webkit-scrollbar {
     width: 0px;
     height: 0;
-    background: #141c24;
-    background-color: #141c24;
 }
-
+main {
+}
 
 
 .glitch {
@@ -223,6 +221,7 @@ a {
 }
 
 .linkcarousel {
+    font-weight: bold;
     color: white;
 }
 .linkcarousel:hover {
