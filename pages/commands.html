@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Precios - Glitch Services</title>
+  <link rel="icon" href="../src/GLITCH1.png">
+  <link rel="stylesheet" href="commands.css">
+  <link rel="stylesheet" href="../index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap" rel="stylesheet">
+</head>
+
+<body onload="loaderFunction()">
+
+  <div id="loader">
+    <div class="loading">
+      <span></span>
+    </div>
+  </div>
+
+
+  <div id="page">
+    <nav>
+      <div class="logo noselect">
+        <img class="noselect" src="../src/GLITCH1.png"> Glitch Services
+      </div>
+
+      <div class="openMenu noselect"><i class="fa fa-bars"></i></div>
+      <ul class="mainMenu noselect">
+        <li><a href="../index.html"><i class="fas fa-home"></i> Home</a></li>
+        <li><a class="active" href="#"><i class="far fa-list-alt"></i> Precios</a></li>
+        <li><a href="../pages/about.html"><i class="far fa-address-card"></i> Sobre Nosotros</a></li>
+        <li><a class="invite noselect" href="https://discord.gg/ymQKfgqUkZ" target="_none"><i
+              class="fab fa-discord"></i> Unirse</a></li>
+        <div class="closeMenu noselect"><i class="fa fa-times"></i></div>
+      </ul>
+    </nav>
+
+
+
+    <div class="container clear noselect"  id="cheteos">
+      <div class="row wrapper">
+
+        <span class="collapse" onclick="closeSidePanel()"><i class="fas fa-caret-left"></i></span>
+        <span class="expand" onclick="openSidePanel()"><i class="fas fa-caret-right"></i></span>
+
+        <div class="sidepanel">
+          <a class="title" href="#cheteos">Cheteos Rockstar</a>
+          <div class="divider left"></div>
+
+          
+          <a class="title" href="#cheteos">Paquetes de cheteos</a>
+
+          <a class="section" href="#basic">Basic</a>
+          <a class="section" href="#premium">Premium</a>
+          <a class="section" href="#vip">Vip</a>
+          <a class="section" href="#boss">Boss</a>
+          <a class="section" href="#ultimate">Ultimate</a>
+
+          <div class="divider left"></div>
+
+          <a class="title" href="#cuentasr">Cuentas RockStar</a>
+
+          <a class="section" href="#fresh">Fresh Account</a>
+          <a class="section" href="#1billon">+1 Billon</a>
+          <a class="section" href="#2billon">+2 Billones</a>
+          <a class="section" href="#fivem">Fivem</a>
+
+          <div class="divider left"></div>
+
+          <a class="title" href="#lol">League Of Legends</a>
+
+          <a class="section" href="#unranked">Unranked</a>
+         <!-- <a class="section" href="#sfw">SFW</a>
+          <a class="section" href="#nsfw">NSFW</a>
+          <a class="sub-section" href="#nsfwTags">Tags</a>
+          <a class="sub-section" href="#autoNSFW">Auto NSFW</a>
+          <a class="section" href="#config">Config</a>-->
+
+          <div class="divider left"></div>
+
+          <a class="title" href="#comocompra">Como Comprar</a>
+          <a class="section" href="#mdp">Metodos de Pago</a>
+
+          <div class="space double"></div>
+
+        </div>
+
+        <div class="right-col">
+          <h1>Cheteos Rockstar</h1>
+
+          <p>Servicio de cheteos de cuentas de <b>GTA 5 ONLINE</b>. Es necesario que podamos acceder a la cuenta del cliente para poder aplicar lo que el cliente quiera comprar.</p>
+
+          <div class="divider" style="width:24%; margin:30px 0;" id="cheteos"></div>
+
+          <h2 id="basic">Paquetes de cheteos</h2><br>
+
+          <h2>Basic</h2>
+
+            <p id="gettingstarted">Se agregan los siguientes items a tu cuenta:
+            <ul>
+              <li><span class="codeBlock">GTA$ 60 MILLONES ($60.000.000) dinero en banco.</span></li>
+              <li><span class="codeBlock" id="premium">LVL RP entre 1 y 100.</span></li>
+            </ul>
+          </p>
+          
+          <h2>Premium</h2>
+
+            <p id="gettingstarted">Se agregan los siguientes items a tu cuenta:
+              <ul>
+                <li><span class="codeBlock">GTA$ 150 MILLONES ($150.000.000) dinero en banco.</span></li>
+                <li><span class="codeBlock"  id="vip">LVL RP entre 1 y 120.</span></li>
+              </ul></p>
+            
+          <h2>Vip</h2>
+
+            <p id="gettingstarted">Se agregan los siguientes items a tu cuenta:
+              <ul>
+                <li><span class="codeBlock">GTA$ 250 MILLONES ($250.000.000) dinero en banco.</span></li>
+                <li><span class="codeBlock">LVL RP entre 1 y 300.</span></li>
+                <li><span class="codeBlock" id="boss">All Unlock.</span></li>
+              </ul></p>
+            
+          <h2>Boss</h2>
+
+            <p id="gettingstarted">Se agregan los siguientes items a tu cuenta:
+              <ul>
+                <li><span class="codeBlock">GTA$ 400 MILLONES ($400.000.000) dinero en banco.</span></li>
+                <li><span class="codeBlock">LVL RP entre 1 y 500.</span></li>
+                <li><span class="codeBlock">All Unlock.</span></li>
+                <li><span class="codeBlock" id="ultimate">Fast Run.</span></li>
+              </ul></p>
+
+          <h2>Ultimate</h2>
+
+            <p id="gettingstarted">Se agregan los siguientes items a tu cuenta:
+              <ul>
+                <li><span class="codeBlock">GTA$ 600 MILLONES ($600.000.000) dinero en banco.</span></li>
+                <li><span class="codeBlock">LVL RP entre 1 y 700.</span></li>
+                <li><span class="codeBlock">All Unlock.</span></li>
+                <li><span class="codeBlock">Fast Run.</span></li>
+              </ul></p>
+
+
+
+          <div class="divider" style="width:24%; margin:30px 0;" id="cuentasr"></div><br>
+
+          <h1>Cuentas RockStar</h1>
+
+          <p id="fresh">Cuentas originales de RockStar, con el juego ya comprado y listo para jugar.</p>
+
+          <h1>Fresh account</h1>
+
+          <p>Estas son cuentas de Grand Theft Auto V con el juego comprado y acceso completo. <br>
+            No gastes más de lo necesario, otras plataformas como Epic Games, 
+            Rockstar Games o Steam los venden por más de 30 dólares.<br>
+            Básicamente, es como si compraras el juego en Epic Games, Rockstar Games o Steam, <br>
+            pero por un precio mucho más económico. <br><br>
+            Es una cuenta con el juego <b>GTA V Premium Edition</b> comprado, <br>
+            original, legal y una cuenta completamente nueva, incluido el acceso al modo online. <br><br>
+            Eres la primera persona en jugar con la cuenta y es sólo tuya. <br>
+            Podrás acceder al correo electrónico y cambiar toda la información de tu cuenta (por ejemplo, <br>
+            cambiar el correo electrónico, contraseña, nombre de usuario, etc.).<br><br>
+            Estas cuentas son muy útiles si has sido baneado y quieres volver a jugar a bajo costo, <br>
+            o si te gustaría modificar una cuenta adicional. De todas formas, <br>
+            otras personas también los compran para tener una cuenta de respaldo <br id="1billon">
+            o simplemente para jugar a un precio muy bajo.
+          </p>
+
+         <!-- <p><b>Important:</b> You must agree to our imagepolicy and matter regarding it will be
+            fairly strict.<br> Use <span class="codeBlock">dh imagepolicy </span> for more information.</p>-->
+
+
+          <h2>+1 Billon </h2>
+
+          <div>Estas cuentas esta listas para usar y traen incluido todo lo siguiente:
+            <ul>
+              <li><span class="codeBlock">+1 BILLON en dinero ($1.000.000.000).</span></li>
+              <li><span class="codeBlock">LVL RP 800.</span></li>
+              <li><span class="codeBlock">5 Outfits MOD.</span></li>
+              <li id="2billon"><span class="codeBlock">Fast Run.</span></li>
+              <li><span class="codeBlock">All Unlock.</span></li>
+            </ul>
+          </div>
+
+          <h2>+2 Billones </h2>
+
+          <div>Estas cuentas esta listas para usar y traen incluido todo lo siguiente:
+            <ul>
+              <li><span class="codeBlock">+2 BILLONES en dinero ($2.000.000.000).</span></li>
+              <li><span class="codeBlock">LVL RP 1.500.</span></li>
+              <li><span class="codeBlock">5 Outfits MOD.</span></li>
+              <li><span class="codeBlock">2 Coches MOD.</span></li>
+              <li id="fivem"><span class="codeBlock">Fast Run.</span></li>
+              <li><span class="codeBlock">All Unlock.</span></li>
+            </ul>
+          </div>
+
+          <h1>Fivem Account</h1>
+
+          <p>
+            Es lo mismo que una cuenta "<b>Fresh</b>" pero estas estan baneadas de <b>GTA5 ONLINE</b>, y solo se pueden usar para jugar Roleplay, ademas de ser mucho mas economicas.
+          </p>
+
+          <div id="lol" class="divider" style="width:24%; margin:30px 0;"></div><br>
+
+          <h1 id="unranked">League Of Legends</h1><br>
+
+          <h2>Unranked </h2>
+
+          <div>Estas cuentas esta listas para usar y traen incluido todo lo siguiente:
+            <ul>
+              <li><span class="codeBlock">SERVER: LAS</span></li>
+              <li><span class="codeBlock">LVL 30.</span></li>
+              <li><span class="codeBlock">+30k Esencia Azul.</span></li>
+            </ul>
+          </div>
+
+         <!-- <h2>SFW</h2>
+          <ul>
+            <li>Syntax</li>
+            <div>
+              All the commands here have the same syntax : <span class="codeBlock">dh < command name> </span>
+              <br>
+              You can do <span class="codeBlock">dh help < command name> </span> to get more info about a command.
+              <br><br>     
+            </div>
+
+            <li>Image and action Commands</li>
+            <div> With action commands you can also mention users while executing the command.</div>
+            <div>
+              <ul>
+                <li><span class="codeBlock">animememes</span></li>
+                <li><span class="codeBlock">waifu</span></li>
+                <li><span class="codeBlock">tickle</span></li>
+                <li><span class="codeBlock">baka</span></li>
+                <li><span class="codeBlock">lewd</span></li>
+                <li><span class="codeBlock">bully</span></li>
+                <li><span class="codeBlock">megumin</span></li>
+                <li><span class="codeBlock">cuddle</span></li>
+                <li><span class="codeBlock">kiss</span></li>
+                <li><span class="codeBlock">smug</span></li>
+                <li><span class="codeBlock">bonk</span></li>
+                <li><span class="codeBlock">slap</span></li>
+                <li><span class="codeBlock">sex</span></li>
+                <li><span class="codeBlock">kill</span></li>
+                <li><span class="codeBlock">cringe</span></li>
+                <li><span class="codeBlock">blush</span></li>
+                <li><span class="codeBlock">headpat</span></li>
+                <li><span class="codeBlock">facepalm</span></li>
+                <li><span class="codeBlock">wink</span></li>
+                <li><span class="codeBlock">hug</span></li>
+                <li><span class="codeBlock">animefood</span></li>
+              </ul>
+              <br>
+            </div>
+            <li>Fact Commands</li>
+            <ul>
+              <li><span class="codeBlock">dogfact</span></li>
+              <li><span class="codeBlock">catfact</span></li>
+              <li><span class="codeBlock">pandafact</span></li>
+              <li><span class="codeBlock">numberfact</span></li>
+              <li><span class="codeBlock">yearfact</span></li>
+              <li><span class="codeBlock">aquote</span></li>
+            </ul>
+            <br>
+            <li>Handy Commands</li>
+            <div>
+              <ul>
+                <li><span class="codeBlock">welcome</span></li>
+                <li><span class="codeBlock">lenny</span></li>
+                <li><span class="codeBlock">ping</span></li>
+                <li><span class="codeBlock">invite</span></li>
+                <li><span class="codeBlock">F</span></li>
+                <li><span class="codeBlock">hi</span></li>
+                <li><span class="codeBlock">flip</span></li>
+                <li><span class="codeBlock">calc</span></li>
+                <li><span class="codeBlock">owofy</span></li>
+                <li><span class="codeBlock">wallpaper</span></li>
+                <li><span class="codeBlock">enlarge</span></li>
+                <li><span class="codeBlock">topic</span></li>
+                <li><span class="codeBlock">stats</span></li>
+                <li><span class="codeBlock">userinfo ( whois, ui )</span></li>
+                <li><span class="codeBlock">serverinfo</span></li>
+              </ul>
+
+              <br id="nsfw">
+          </ul>
+
+          <h2>NSFW</h2>
+          <ul>
+            <li>Key</li>
+            <div>
+              All the NSFW commands need a NSFW enabled channel, you can use <span class="codeBlock">dh set_nsfw</span>
+              to do so.
+              <br><br>
+            </div>
+            <li>Syntax</li>
+            <div>
+              All the NSFW commands have the same syntax : <span class="codeBlock">dh < command name> [ amount of images
+                  ] </span>
+              <br>
+              <span>Note: Amount limit is 10.</span>
+              <br id="nsfwTags"><br>
+            </div>
+            <li>Tags</li>
+            <div>
+              <ul>
+                <li><span class="codeBlock">nsfw</span></li>
+                <li><span class="codeBlock">oppai</span></li>
+                <li><span class="codeBlock">blowjob</span></li>
+                <li><span class="codeBlock">ass</span></li>
+                <li><span class="codeBlock">anal</span></li>
+                <li><span class="codeBlock">pussy</span></li>
+                <li><span class="codeBlock">neko</span></li>
+                <li><span class="codeBlock">orgy</span></li>
+                <li><span class="codeBlock">glasses</span></li>
+                <li><span class="codeBlock">solo</span></li>
+                <li><span class="codeBlock">cum</span></li>
+                <li><span class="codeBlock">uniform</span></li>
+                <li><span class="codeBlock">public</span></li>
+                <li><span class="codeBlock">thighs</span></li>
+                <li><span class="codeBlock">creampie</span></li>
+                <li><span class="codeBlock">cockold</span></li>
+                <li><span class="codeBlock">pantyhose</span></li>
+                <li><span class="codeBlock">gangbang</span></li>
+                <li><span class="codeBlock">boobjob</span></li>
+                <li><span class="codeBlock">erofeet</span></li>
+                <li><span class="codeBlock">femdom</span></li>
+                <li><span class="codeBlock">trap</span></li>
+                <li><span class="codeBlock">futanari</span></li>
+                <li><span class="codeBlock">furry</span></li>
+              </ul>
+              <br>
+            </div>
+            <li>Specific Tags</li>
+            <div>
+              <ul>
+                <li><span class="codeBlock">zerotwo</span></li>
+                <li><span class="codeBlock">konosuba</span></li>
+                <li><span class="codeBlock">tsundae</span></li>
+                <li id="autoNSFW"><span class="codeBlock">rem</span></li>
+              </ul>
+              <br>
+            </div>
+            <li id="config">Auto NSFW</li>
+            <div>
+              Description : You can enable Auto NSFW in a channel to send NSFW in provided time interval.
+              <br>
+              Syntax : <span class="codeBlock">dh autonsfw < enable | disable> [ your tag choice ] [ time ]</span>
+              <br>
+              Example : <span class="codeBlock">dh autonsfw enable public 1</span>
+              <br>
+            </div>
+          </ul>
+
+          <h2>Config</h2>
+          <ul>
+            <li class="collapsible">Enable Command</li>
+            <div class="cmdCollapse">
+              Description : Let's you enable any disabled command.
+              <br>
+              Example : <span class="codeBlock">dh enable nsfw</span>
+              <br>
+            </div>
+
+            <li class="collapsible">Disable Command</li>
+            <div class="cmdCollapse">
+              Description : Let's you disable any command.
+              <br>
+              Example : <span class="codeBlock">dh disable nsfw</span>
+              <br>
+            </div>
+
+            <li class="collapsible">List Disabled Commands</li>
+            <div class="cmdCollapse">
+              Description : Lists all the disbaled commands in the server.
+              <br>
+              Example : <span class="codeBlock">dh listdisabledcommands</span>
+              <br>
+            </div>
+          </ul>-->
+
+          <div class="divider" style="width:24%; margin:30px 0;"></div>
+
+          <h1 id="comocompra">Como Comprar</h1>
+          <p  id="mdp">Para comprar cualquiera de nuestros productos o servicios debes unirte a nuestro <a href="https://discord.gg/ymQKfgqUkZ" target="_blank">servidor de discord</a>.
+
+          </p>
+          <h2>Metodos de Pago</h2>
+
+          <div>
+            <ul>
+              <li>Paypal: <span class="codeBlock">Desde cualquier pais, con tarjeta de debito o credito.</span></li>
+              <li>Transferencia Bancaria: <span class="codeBlock">Desde Argentina (Mercadopago, Uala, etc).</span></li>
+              <li>Crypto: <span class="codeBlock">Desde cualquier pais (LTC, USDT, BNB, BUSD).</span></li>
+            </ul>
+          </div>
+          
+          <div class="doublespace"></div>
+          <div class="divider" style="width:24%; margin:30px 0;"></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <script src="../index.js"></script>
+  <script src="./commands.js"></script>
+</body>
+
+</html>
